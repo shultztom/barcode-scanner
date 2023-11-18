@@ -1,2 +1,2 @@
 PACKAGE_NAME='barcode-scanner'
-docker run -p 8080:8080 us-central1-docker.pkg.dev/shultzlab/docker-gcp/$PACKAGE_NAME-local:latest
+docker run -p 8080:8080 harbor.shultzlab.com/docker/$PACKAGE_NAME:latest
